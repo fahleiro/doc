@@ -6,5 +6,6 @@
      - `git branch -d branchName` : delete local branch
  
 - ## git checkout
-    Used to navigate between branches
-     - `git checkout branchName`
+    Used to interact between branches
+     - `git checkout branchName` : navigate to the specified branch
+     - `git checkout branchName -- fileName` : bring the specified file to actual branch from the specified branch
